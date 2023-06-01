@@ -1,0 +1,12 @@
+package com.pp2;
+
+public class RUNNER1PT2 implements Runnable {
+	@Override
+	
+	public void run (){
+		for(int i=0; i<10;i++) {
+			System.out.println("Runner 1: "+ i);
+		}
+	}
+}
+
